@@ -2,8 +2,8 @@ apiVersion: v2
 name: uptime-kuma
 description: A Helm chart for monitoring tool uptime-kuma.
 type: application
-version: 0.1.1
-appVersion: "1.9.1-alpine"
+version: 0.2.0
+appVersion: "1.10.0-alpine"
 kubeVersion: ">= 1.19.0"
 sources:
   - https://github.com/louislam/uptime-kuma
