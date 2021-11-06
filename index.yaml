@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   uptime-kuma:
   - apiVersion: v2
+    appVersion: 1.10.0-alpine
+    created: "2021-11-06T12:08:46.78907429Z"
+    description: A Helm chart for monitoring tool uptime-kuma.
+    digest: 6d0c20344d8b105caeb7829fc7611cb1ee91d423894fde6f3280ec34d6c76e6e
+    kubeVersion: '>= 1.19.0'
+    name: uptime-kuma
+    sources:
+    - https://github.com/louislam/uptime-kuma
+    type: application
+    urls:
+    - https://github.com/gtrubach/helm-charts/releases/download/uptime-kuma-0.2.0/uptime-kuma-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.9.1-alpine
     created: "2021-10-23T13:21:23.820096323Z"
     description: A Helm chart for monitoring tool uptime-kuma.
@@ -14,4 +27,4 @@ entries:
     urls:
     - https://github.com/gtrubach/helm-charts/releases/download/uptime-kuma-0.1.1/uptime-kuma-0.1.1.tgz
     version: 0.1.1
-generated: "2021-10-23T13:21:23.820191024Z"
+generated: "2021-11-06T12:08:46.78908259Z"
